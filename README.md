@@ -9,9 +9,6 @@
 
 This is a simple Angular application designed to simulate a train seat booking system. The system allows users to book seats in a train coach that contains 80 seats, arranged in rows with a specific layout. Users can book up to 7 seats at a time, with priority given to booking seats in the same row.
 
-## Live Demo
-You can view the live demo of the project at [Train Seat Booking System Live Demo](https://angular-ikumsh.stackblitz.io/).
-
 ## Features
 
 - **Seat Layout**: The coach contains 11 rows with 7 seats each, except for the last row, which contains 3 seats.
@@ -41,4 +38,7 @@ Before you begin, ensure you have the following installed on your machine:
    git clone <repository-url>
    cd <repository-name>
 
+
+## Live Demo
+You can view the live demo of the project at [Train Seat Booking System Live Demo](https://angular-ikumsh.stackblitz.io/).
 
