@@ -1,0 +1,86 @@
+/* General styling for the booking system */
+.booking-container {
+  text-align: center;
+  margin-top: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+h1 {
+  color: #4CAF50;
+  margin-bottom: 10px;
+}
+
+.booking-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+input {
+  width: 60px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+
+button {
+  padding: 8px 15px;
+  background-color: #2196F3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0b7dda;
+}
+
+.seats {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+span {
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  margin: 3px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 16px;
+  transition: transform 0.2s;
+}
+
+/* Available seats - Green */
+.available {
+  background-color: #8BC34A;
+  color: white;
+  border: 2px solid #689F38;
+}
+
+.available:hover {
+  transform: scale(1.1);
+}
+
+/* Booked seats - Red */
+.booked {
+  background-color: #F44336;
+  color: white;
+  border: 2px solid #D32F2F;
+}

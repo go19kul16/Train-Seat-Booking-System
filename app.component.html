@@ -1,0 +1,18 @@
+<div class="booking-container">
+  <h1>Train Seat Booking System</h1>
+
+  <div class="booking-input">
+    <label for="seats">Enter number of seats to book (1-7):</label>
+    <input #seatsInput type="number" min="1" max="7" />
+    <button (click)="bookSeats(seatsInput.value)">Book Seats</button>
+  </div>
+
+  <div class="seats">
+    <div *ngFor="let row of rows; let rowIndex = index" class="row">
+      <span *ngFor="let seat of row; let seatIndex = index" 
+            [ngClass]="{'booked': seat.booked, 'available': !seat.booked}">
+        {{ rowIndex + 1 }}-{{ seatIndex + 1 }}
+      </span>
+    </div>
+  </div>
+</div>
