@@ -1,5 +1,8 @@
 # Train Seat Booking System
 
+## Live Demo
+You can view the live demo of the project at [Train Seat Booking System Live Demo](https://angular-ikumsh.stackblitz.io/).
+
 ## Overview
 ![image](https://github.com/user-attachments/assets/64df3a83-f370-42d9-8e63-8ca8701db78c)
 ![image](https://github.com/user-attachments/assets/4ec5c626-e08c-44da-ba9b-eb1271e38930)
@@ -39,6 +42,4 @@ Before you begin, ensure you have the following installed on your machine:
    cd <repository-name>
 
 
-## Live Demo
-You can view the live demo of the project at [Train Seat Booking System Live Demo](https://angular-ikumsh.stackblitz.io/).
 
